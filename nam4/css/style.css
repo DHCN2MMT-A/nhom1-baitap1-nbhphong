@@ -1,0 +1,85 @@
+body {
+	font-family: Tahoma; /* kiểu chữ*/
+	font-size: 13px;
+	width: 0px auto;
+	margin: 0px auto;
+}
+
+#menu_top{
+	background: #141414;
+	height: 40px;
+}
+
+
+#banner{
+	height: 100px;
+	width: 100%;
+	background: #cccccc;
+}
+
+
+
+#main #left{
+	width: 1349px ;
+	min-height: 100%;
+	float: left;
+}
+
+
+#footer{
+	background: #000;
+	width: 0px auto;
+	text-align: center;
+	height: 60px;
+	color: #FFF;
+	clear: left;
+	line-height: 60px;
+}
+
+
+#menu_top ul{
+	margin: 0px;
+	padding: 0px;
+}
+#menu_top ul li {
+	list-style: none;
+	float: left;
+}
+
+#menu_top ul li a {
+	text-decoration: none; /* bỏ gạch chân*/
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	color: #FFF;
+	padding: 0px 20px 0px 20px;
+	border-right: 1px solid #ccc; /* khoảng trắng giữa các menu*/
+}
+
+#menu_top ul li a.active {
+	background: #1949b5;
+}
+
+#banner img {
+	width: 1349px 
+}
+/*#main #left ul{
+	margin: 0px;
+	padding: 0px;
+}*/
+
+/*#main #left ul li {
+	list-style: none;
+	clear: left;
+	border-bottom: 2px solid #ccc;
+	float: left;
+	margin-bottom: 20px;
+}*/
+#main #left ul li img {
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	
+}
+
+}
